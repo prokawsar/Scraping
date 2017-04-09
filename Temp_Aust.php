@@ -16,9 +16,9 @@ const GET = false;
 
     $post = [
         '_token' => $token,        
-        'iteration' => '1', // for this time
+        'iteration' => '2', // for this time
         'feed' => 'search',
-        'state' => '',
+        'state' => 'ACT',
         'region' => '',
         'city' => '',
         'category' => '',
